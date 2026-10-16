@@ -1,0 +1,20 @@
+@mixin link
+{
+      display: inline-block;
+      width: 60px;
+      height: 60px;
+      background-color: transparent;
+      text-align: center;
+      border-radius: 50%;
+}
+
+
+@mixin overlay
+{
+      position: absolute;
+      width: 100%;
+      height: auto;
+      background-color: rgba(0,0,0,0.2);
+      top: 0;
+      left: 0;
+}

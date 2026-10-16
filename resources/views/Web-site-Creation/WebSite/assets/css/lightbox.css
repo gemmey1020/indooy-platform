@@ -1,0 +1,38 @@
+.example-lightbox{
+    margin: 150px auto;
+    max-width: 1000px;
+}
+
+.show-lightbox{
+    background-color:rgba(0, 0, 0, 1);
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: 999;
+    left: 0;
+    right: 25%;
+    top: 0;
+    text-align: right;
+    display: none;
+}
+
+
+.lightbox__media img{
+    width: 50%;
+    height: auto;
+    display: block;
+    margin: auto;
+}
+
+.lightbox__close i{
+       font-size: 50px;
+    text-align: center;
+    margin: 10px;
+    color: #fff;
+}
+
+html.lightbox,
+body.lightbox{
+    height: 100%;
+    overflow-y: hidden;
+}

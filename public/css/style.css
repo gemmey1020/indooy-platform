@@ -1,0 +1,657 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {}
+
+/*start topbar*/
+
+.topbar {
+  height: 103px;
+  background: -webkit-gradient(linear, left top, left bottom, from(#370505), to(#a00e12));
+  background: linear-gradient(to bottom, #370505, #a00e12);
+}
+
+.topbar .phone img {
+  display: block;
+  margin-top: 35px;
+}
+
+.topbar .phone p {
+  color: white;
+}
+
+.topbar .phone p:first-of-type {
+  margin-top: -37px;
+  margin-left: 45px;
+  font-size: 13px;
+}
+
+.topbar .phone p:nth-of-type(2) {
+  margin-top: -16px;
+  margin-left: 45px;
+  font-size: 13px;
+}
+
+.topbar .email img {
+  display: block;
+  margin-top: 35px;
+}
+
+.topbar .email p {
+  color: white;
+}
+
+.topbar .email p:first-of-type {
+  margin-top: -37px;
+  margin-left: 45px;
+  font-size: 13px;
+}
+
+.topbar .email p:nth-of-type(2) {
+  margin-top: -16px;
+  margin-left: 45px;
+  font-size: 13px;
+}
+
+.topbar .location img {
+  display: block;
+  margin-top: 35px;
+}
+
+.topbar .location p {
+  color: white;
+}
+
+.topbar .location p:first-of-type {
+  margin-top: -37px;
+  margin-left: 45px;
+  font-size: 13px;
+}
+
+.topbar .location p:nth-of-type(2) {
+  margin-top: -16px;
+  margin-left: 45px;
+  font-size: 13px;
+}
+
+.topbar .socials {
+  margin-top: 35px;
+  margin-left: 50px;
+}
+
+.topbar .socials a {
+  margin-right: 30px;
+  color: white
+}
+
+/*start header*/
+
+header .navbar {
+  background-color: #f2f2f2;
+}
+
+header .navbar .navbar-brand {
+  margin-left: 93px;
+}
+
+header .navbar .navbar-nav {
+  margin-right: 115px;
+}
+
+header .navbar .navbar-nav li {
+  margin-right: 20px;
+  text-transform: uppercase;
+}
+
+header .navbar .navbar-nav li a:hover {
+  color: #d81414 !important;
+}
+
+/*start slider*/
+
+.slider .carousel-item {}
+
+.slider .carousel-item .text {
+  position: absolute;
+  color: white;
+  top: 19%;
+  left: 56%;
+}
+
+.slider .carousel-item .text .head p {
+  /*    font-weight: bold;
+*/
+  font-size: 30px;
+  border-bottom: 2px solid #bc161d;
+  width: 225px;
+  line-height: 38px;
+  padding-bottom: 5px;
+}
+
+.slider .carousel-item .text .cont p {
+  /*    color: #afafb0;*/
+  color: white
+}
+
+/*start welcome*/
+
+.welcome .intro {
+  position: relative;
+}
+
+.welcome .intro::after {
+  content: "";
+  position: absolute;
+  width: 100px;
+  height: 2px;
+  background-color: #bb131a;
+  left: 45%;
+  top: 45%;
+}
+
+.welcome .intro p:first-of-type {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 25px;
+  font-weight: bold;
+  margin-top: 10px;
+  color: #000;
+}
+
+.welcome .intro p span {
+  color: #bb131a;
+}
+
+.welcome .intro p:nth-of-type(2) {
+  text-align: center;
+  margin-top: 40px;
+  color: #000;
+}
+
+.welcome {
+  background-color: #f2f2f2;
+  height: 550px;
+  margin-top: 0px;
+}
+
+.welcome .imgstory {
+  margin-top: 10px;
+}
+
+.welcome .story {
+  margin-left: 42px;
+  margin-top: 10px;
+}
+
+.welcome .story h3 {
+  text-transform: uppercase;
+}
+
+.welcome .story p {
+  color: #000;
+}
+
+.welcome .story a button {
+  float: right;
+  text-transform: uppercase;
+  background-color: #bb131a;
+  color: white;
+  width: 145px;
+  padding: 5px;
+  border: 0;
+  cursor: pointer;
+  margin-top: 37px;
+}
+
+/* what we offer */
+
+.whatoffer {
+  background-image: url("../img/we-offer_bg.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  height: 500px
+}
+
+.whatoffer .offerservices {
+  margin-top: 25px
+}
+
+.whatoffer .offerintro {
+  text-align: center;
+  position: relative;
+  margin-top: 15px;
+}
+
+.whatoffer .offerintro::after {
+  content: "";
+  position: absolute;
+  width: 85px;
+  height: 2px;
+  background-color: #fff;
+  left: 46%;
+  top: 45%;
+}
+
+.whatoffer .offerintro p:first-of-type {
+  font-size: 25px;
+  color: white;
+  text-transform: uppercase;
+  padding-top: 17px;
+  padding-bottom: 17px;
+}
+
+.whatoffer .offerintro p:nth-of-type(2) {
+  color: #fff;
+}
+
+.whatoffer .offerservices {
+  text-align: center;
+}
+
+.whatoffer .offerservices .petrocare img {
+  display: inline-block;
+  border: 1px solid #fff;
+  border-radius: 50%;
+  width: 130px;
+  padding: 15px;
+  height: 120px
+}
+
+.whatoffer .offerservices .petrocare img:hover {
+  background-color: #bb131a;
+  border: 1px solid #bb131a;
+}
+
+.whatoffer .offerservices .petrocare h3 {
+  text-transform: uppercase;
+}
+
+.whatoffer .offerservices .petrocare h3 {
+  color: #fff;
+}
+
+.whatoffer .offerservices .petrocare p {
+  color: #fff;
+}
+
+.whatoffer .offerservices .petrocare button {
+  text-transform: uppercase;
+  background-color: transparent;
+  color: white;
+  width: 145px;
+  padding: 5px;
+  border: 1px solid #fff;
+  cursor: pointer;
+}
+
+.whatoffer .offerservices .petrocare button:hover {
+  background-color: #bb131a;
+  border: 1px solid #bb131a;
+}
+
+/* start industal  */
+
+.industrialmachinery {
+  background-color: #f2f2f2;
+  height: 820px;
+}
+
+.industrialmachinery .industralintro {
+  text-align: center;
+  position: relative;
+  margin-top: 20px;
+}
+
+.industrialmachinery .industralintro::after {
+  content: "";
+  position: absolute;
+  width: 100px;
+  height: 2px;
+  background-color: #bb131a;
+  left: 45%;
+  top: 120%;
+}
+
+.industrialmachinery .industralintro p {
+  font-size: 25px;
+  color: black;
+  text-transform: uppercase;
+}
+
+.industrialmachinery .button_compresssor {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.industrialmachinery .button_compresssor .compress button {
+  background-color: transparent;
+  width: 272px;
+  margin: -3px;
+  padding: 5px;
+  border: 1px solid #cecece;
+  color: #75808c;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-size: 15px;
+}
+
+.industrialmachinery .button_compresssor .compress button:hover {
+  background-color: #bb131a;
+  border: 1px solid #bb131a;
+  color: #fff;
+}
+
+.industrialmachinery .button_compresssor .compress {
+  position: relative;
+}
+
+.industrialmachinery .button_compresssor .compress .triangle {
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-top: 10px solid #bb131a;
+  left: 22%;
+  top: 110%;
+  display: none;
+}
+
+/* .industrialmachinery .button_compresssor .compress button:hover.triangle
+{
+  display: block !important;
+} */
+
+.industrialmachinery .Compressors .compressor_machine {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.industrialmachinery .Compressors .compressor_machine img {
+  width: 358px;
+  height: 230px;
+}
+
+.industrialmachinery .Compressors .compressor_machine p {
+  width: 358px;
+  background-color: #d6d6d6;
+  padding: 10px;
+  text-transform: uppercase;
+}
+
+.industrialmachinery .Compressors .compressor_machine:hover {
+  transform: scale(1.1);
+  transition: all .5s ease-in-out;
+  z-index: 9999999;
+}
+
+.industrialmachinery .Compressors .compressor_machine:hover p {
+  background-color: #bb131a;
+  border: 1px solid #bb131a;
+  color: #fff;
+}
+
+/* start request_quote */
+
+.request_quote {
+  background-color: #dddddd;
+  height: 90px;
+}
+
+.request_quote .request {
+  text-align: center;
+  margin-top: 30px;
+  margin-left: 2%;
+}
+
+.request_quote .request span {
+  font-weight: bold;
+}
+
+.request_quote .request button {
+  margin-left: 40px;
+  background-color: #bb131a;
+  border: 1px solid #bb131a;
+  width: 250px;
+  padding: 5px;
+  color: #fff;
+  cursor: pointer;
+}
+
+/*start media and blog  */
+
+.media_blog {
+  background-color: #f2f2f2;
+  height: 700px
+}
+
+.media_blog .blog {
+  background-color: #ededed;
+  height: 600px;
+  position: relative;
+  overflow: hidden;
+}
+
+.media_blog .blog span:first-of-type {
+  color: #000;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 20px;
+  display: inline-block;
+  margin-top: 50px;
+  margin-left: 10px;
+  position: relative;
+}
+
+.media_blog .blog span:first-of-type::after {
+  content: "";
+  position: absolute;
+  width: 67px;
+  height: 2px;
+  background-color: #bb131a;
+  left: 1%;
+  top: 116%;
+}
+
+.media_blog .blog span:nth-of-type(2) {
+  float: right;
+  display: inline-block;
+  background-color: #e5e5e5;
+  margin-top: 45px;
+  margin-right: 10px;
+  padding: 6px;
+}
+
+.media_blog .blog p:first-of-type {
+  margin-top: 40px;
+  padding: 15px;
+}
+
+.media_blog .blog .imgblog img {
+  width: 558px;
+  height: 231px;
+}
+
+.media_blog .blog .imgblog p {
+  padding: 10px;
+  margin-top: 5px;
+}
+
+.media_blog .blog a {
+  float: right;
+  margin-top: -48px;
+  color: #bb131a;
+  margin-right: 10px;
+  text-decoration: underline;
+}
+
+.media_blog .media {}
+
+/* .media_blog .media span{
+
+  color: #000;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 20px;
+  display: inline-block;
+  margin-top: 10px;
+  margin-left: 10px;
+  position: relative;
+
+} */
+
+/* start clients */
+
+.clients {
+  background-color: #ecf0f1;
+  height: 209px;
+}
+
+.clients .clients_logo .carouselmargin {
+  margin-top: 38px
+}
+
+.clients .clients_logo .carouselmargin img {
+  display: inline-block !important;
+  height: 135px;
+  width: 220px !important;
+}
+
+.clients .clients_logo .prev1 {
+  background-color: #494848;
+  height: 40px;
+  width: 40px;
+  margin-left: -87px;
+  margin-top: 84px;
+}
+
+.clients .clients_logo .next1 {
+  background-color: #494848;
+  height: 40px;
+  width: 40px;
+  margin-right: -87px;
+  margin-top: 84px;
+}
+
+/* start footer */
+
+footer {
+  background-image: url("../img/footer_img_bg.jpg");
+  height: 576px;
+  background-size: cover;
+  /* text-align: center; */
+}
+
+footer .petrointernational {
+  margin-top: 30px;
+}
+
+footer .petro_company {
+  border-bottom: 2px solid #fff;
+}
+
+footer .petro_company p {
+  color: #fff;
+  margin-top: 10px
+}
+
+footer .footer_socials {
+  margin-top: 60px;
+}
+
+footer .footer_socials a {
+  margin-right: 15px;
+  border: 1px solid #FFF;
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  color: #FFF;
+  text-align: center;
+  padding-top: 2px;
+}
+
+footer .footer_socials a:hover {
+  background-color: #bb131a;
+  border: 1px solid #bb131a;
+}
+
+footer .footer_address {
+  margin-top: 60px
+}
+
+footer .footer_address h5 {
+  color: #fff;
+}
+
+footer .footer_address p {
+  color: #fff;
+}
+
+footer .footer_contact {
+  color: #fff;
+  line-height: 15px;
+}
+
+footer .footer_message {
+  margin-top: 55px;
+}
+
+footer .footer_message h4 {
+  color: #FFF;
+  text-transform: uppercase;
+}
+
+footer .footer_message .name {
+  background-color: #34495e;
+  border-radius: 0 !important;
+  border: 0 !important;
+}
+
+footer .footer_message .name::placeholder {
+  color: #FFF;
+}
+
+footer .footer_message .email {
+  background-color: #34495e;
+  border-radius: 0 !important;
+  border: 0 !important;
+}
+
+footer .footer_message .email::placeholder {
+  color: #FFF;
+}
+
+footer .footer_message textarea {
+  background-color: #34495e;
+  border-radius: 0 !important;
+  border: 0 !important;
+  padding: 5px;
+}
+
+footer .footer_message textarea::placeholder {
+  color: #FFF;
+}
+
+/* start footerbar */
+
+.footer_bar {
+  background-color: #bb131a;
+}
+
+.footer_bar .designed {
+  float: right;
+  padding-top: 11px;
+  color: #d6d6d6
+}
+
+.footer_bar .copy {
+  float: left;
+  padding-top: 11px;
+  color: #d6d6d6
+}
+
+#Container .mix {
+  display: none;
+}

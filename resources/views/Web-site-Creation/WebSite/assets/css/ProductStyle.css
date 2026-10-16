@@ -1,0 +1,94 @@
+.show-lightbox {
+  right: 0 !important; }
+
+.lightbox__media img {
+  width: 30%; }
+
+#topbar .menu li {
+  margin-left: 30px !important; }
+
+#topbar .search_content {
+  width: 433px; }
+
+#topbar .search_content input {
+  width: 57%; }
+
+#topbar .search_content span {
+  color: #fff; }
+
+#topbar .search_content button {
+  display: inline-block;
+  width: 65px;
+  text-align: center;
+  background-color: #6693c0;
+  color: #fff;
+  border: 0;
+  cursor: pointer; }
+
+#products {
+  margin-top: 5%;
+  position: relative; }
+  #products .product_margin {
+    margin-bottom: 2%;
+    padding-right: 30px;
+   }
+  #products .product_info .product_image {
+    float: right;
+    width: 12%;
+    border: 1px solid #000;
+
+    position: relative; }
+    #products .product_info .product_image .product_image_overlay {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      left: 0;
+      bottom: 0;
+      background-color: rgba(0, 0, 0, 0.7);
+      text-align: center;
+      animation: moveup 0.7s ease-in-out forwards;
+      display: none; }
+      #products .product_info .product_image .product_image_overlay button {
+        margin-top: 40%;
+        background-color: transparent;
+        border: 0;
+        cursor: pointer; }
+        #products .product_info .product_image .product_image_overlay button i {
+          color: #fff;
+          font-size: 25px; }
+    #products .product_info .product_image:hover .product_image_overlay {
+      display: block; }
+@keyframes moveup {
+  0% {
+    height: 0; }
+  100% {
+    height: 100%; } }
+  #products .product_info .product_content {
+    width: 84%;
+    float: left;
+    text-align: right; }
+  #products .left_content_adv {
+    position: absolute;
+    top: 0%;
+    left: 0%; }
+
+    #products .left_content:first-of-type
+    {
+      margin-top: 100%;
+    }
+  #products .left_content {
+    width: 160px;
+    height: 600px;
+    background-color: #ddd;
+    float: left;
+    margin-bottom: 5%; }
+
+#bottomAdv_pagnition .bottomAdv_pagnition_adv {
+  width: 100%;
+  height: 60px;
+  background-color: #ddd;
+  margin-left: 0 !important; }
+#bottomAdv_pagnition .pagination nav {
+  margin: auto; }
+
+/*# sourceMappingURL=ProductStyle.css.map */
